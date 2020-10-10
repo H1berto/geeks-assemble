@@ -1,0 +1,16 @@
+{% comment %}
+	Social Login Snippet (v1.0)
+	https://developertoolkit.io/reference/social-login/
+{% endcomment %}
+
+{%- if display == 'message' -%}
+	<p data-dtk-social-login-msg></p>
+{%- endif -%}
+
+{%- if display == 'buttons' -%}
+  <div data-dtk-shop="{{shop.permanent_domain}}"> 
+    <button data-dtk-social-login="google.com" >Google Login</button>
+    <button data-dtk-social-login="facebook.com" >Facebook Login</button>
+    <button data-dtk-social-login="twitter.com" >Twitter Login</button>
+  </div>
+{%- endif -%}

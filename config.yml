@@ -1,0 +1,8 @@
+development:
+  password: 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
+  theme_id: "113837244565"
+  store: geeksassemble.myshopify.com
+production:
+  password: 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
+  theme_id: "113837244565"
+  store: geeksassemble.myshopify.com
